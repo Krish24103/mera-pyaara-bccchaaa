@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Pyaara Bccchaaa ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Romantic Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="heart-container"></div>
+
+    <!-- Sparkles -->
+    <div class="sparkle-container"></div>
+
+
+    <!-- Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- Music Button -->
+    <button class="music-btn" onclick="toggleMusic()" id="musicButton">
+        🎵
+    </button>
+
+
+    <!-- Main Website -->
+
+    <div class="website">
+
+        <!-- Top Heading -->
+
+        <header class="top">
+
+            <div class="mini-heart">♡</div>
+
+            <h1>For My Pyaara Bccchaaa</h1>
+
+            <div class="subtitle">
+                😭❤️😘
+            </div>
+
+            <p>
+                A little something from my heart...
+            </p>
+
+        </header>
+
+
+        <!-- Progress -->
+
+        <div class="progress">
+
+            <span id="pageNumber">1</span>
+
+            <div class="progress-line">
+                <div id="progressBar"></div>
+            </div>
+
+            <span>8</span>
+
+        </div>
+
+
+        <!-- ================= PAGE 1 ================= -->
+
+        <section class="page active">
+
+            <div class="cute-icon">
+                🥺❤️
+            </div>
+
+            <h2>I'm Really Sorry...</h2>
+
+            <div class="typing-box">
+
+                <p id="typingText"></p>
+
+            </div>
+
+            <button class="tap-button" onclick="startLetter()">
+                Tap Me 🥺
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 2 ================= -->
+
+        <section class="page">
+
+            <div class="icon">
+                💔
+            </div>
+
+            <h2>I Know I Hurt You...</h2>
+
+            <p>
+                I know the words I said were really hurtful.
+                Saying that you might cheat on me was wrong,
+                and I completely understand why it hurt you.
+            </p>
+
+            <p>
+                You didn't deserve to hear that from the person
+                who is supposed to make you feel loved and safe.
+            </p>
+
+            <button onclick="nextPage()">
+                Next ❤️
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 3 ================= -->
+
+        <section class="page">
+
+            <div class="icon">
+                🤍
+            </div>
+
+            <h2>Please Believe Me...</h2>
+
+            <p>
+                My words came from my insecurity and fear,
+                but that doesn't make what I said okay.
+            </p>
+
+            <p>
+                I don't want my fears to become a reason
+                for hurting the person I love the most.
+            </p>
+
+            <div class="little-note">
+                I trust you. ❤️
+            </div>
+
+            <button onclick="nextPage()">
+                Next 🤍
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 4 ================= -->
+
+        <section class="page image-page">
+
+            <div class="image-frame">
+
+                <img src="images/hug.png" alt="Cute Hug">
+
+                <div class="floating-mini-heart">
+                    ❤️
+                </div>
+
+            </div>
+
+            <h2>Come Here... 🫂</h2>
+
+            <p>
+                If you were here right now,
+                I'd give you the biggest hug ever.
+            </p>
+
+            <p>
+                No arguments.
+                No explanations.
+                Just me holding you close.
+            </p>
+
+            <button onclick="nextPage()">
+                I Want That Hug 🫂
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 5 ================= -->
+
+        <section class="page image-page">
+
+            <div class="image-frame">
+
+                <img src="images/forehead-kiss.png"
+                    alt="Forehead Kiss">
+
+            </div>
+
+            <h2>One Little Forehead Kiss 😘</h2>
+
+            <p>
+                I'd gently hold your face...
+            </p>
+
+            <p class="romantic">
+                give you a soft forehead kiss...
+                and whisper:
+            </p>
+
+            <div class="quote">
+                "I'm sorry, meri jaan.
+                I love you so much." ❤️
+            </div>
+
+            <button onclick="nextPage()">
+                Another One 😘
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 6 ================= -->
+
+        <section class="page image-page">
+
+            <div class="image-frame">
+
+                <img src="images/cuddle.png"
+                    alt="Cute Cuddle">
+
+            </div>
+
+            <h2>My Cutie Pie 🥰</h2>
+
+            <p>
+                And after that...
+                I'd probably annoy you a little.
+            </p>
+
+            <p>
+                Just enough to make you smile again. 😭❤️
+            </p>
+
+            <div class="flirty">
+                Because your smile is
+                <br>
+                my favourite thing. 😌💕
+            </div>
+
+            <button onclick="nextPage()">
+                Next, Madam 😌❤️
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 7 ================= -->
+
+        <section class="page">
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+            <h2>You Are My World 🌎</h2>
+
+            <p>
+                You're not just someone I love.
+            </p>
+
+            <p>
+                You're my favourite person,
+                my comfort,
+                my happiness,
+                my safe place,
+                and someone incredibly precious to me.
+            </p>
+
+            <p>
+                I don't want to lose something so beautiful
+                because of my stupid insecurities.
+            </p>
+
+            <button onclick="nextPage()">
+                One Last Thing ❤️
+            </button>
+
+        </section>
+
+
+        <!-- ================= PAGE 8 ================= -->
+
+        <section class="page final-page">
+
+            <div class="final-heart">
+                💗
+            </div>
+
+            <h2>One Last Thing...</h2>
+
+            <p>
+                I'm truly sorry,
+                <strong>meri pyaari bccchaaa.</strong> 😭❤️
+            </p>
+
+            <p>
+                I'll try to be better.
+                I'll try to understand instead of assuming.
+                And I'll try to love you without letting my fears
+                hurt you.
+            </p>
+
+            <p class="final-question">
+                Can I have my hug now? 🥺🫂
+            </p>
+
+            <button class="yes-button" onclick="finalHug()">
+                YES 🥺❤️
+            </button>
+
+        </section>
+
+
+        <!-- ================= FINAL LOVE ================= -->
+
+        <section class="page love-page">
+
+            <div class="heart-explosion">
+
+                <span>❤️</span>
+                <span>💕</span>
+                <span>💗</span>
+                <span>💖</span>
+                <span>❤️</span>
+
+            </div>
+
+            <div class="huge-heart">
+                ❤️
+            </div>
+
+            <h2>I LOVE YOU</h2>
+
+            <h3>SOOOOO MUCHHH 😭❤️</h3>
+
+            <p>
+                You are my today,
+                my tomorrow,
+                and my favourite part of every day.
+            </p>
+
+            <div class="forever">
+                Forever yours... 🫂❤️
+            </div>
+
+            <button onclick="sendMoreLove()">
+                One More Hug 🫂
+            </button>
+
+        </section>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
